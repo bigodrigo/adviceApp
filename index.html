@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/variables.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
     <title>Advice Giver</title>
 </head>
 <body>
     <main>
         <div class="container">
             <h1 class="title">Advice #117</h1>
-            <p class="advice">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
-            <img src="./src/images/pattern-divider-desktop.svg">
-            <div class="iconContainer">
-                <img class="icon" src="./src/images/icon-dice.svg">
-            </div>
+            <p class="description">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
+            <picture>
+                <source srcset="./src/images/pattern-divider-mobile.svg" media="(max-width: 768px)">
+                <img src="./src/images/pattern-divider-desktop.svg" alt="Pattern divider">
+            </picture>
+            <button class="iconContainer">
+                <img src="./src/images/icon-dice.svg" alt="Dice icon">
+            </button>
         </div>
     </main>
 </body>
