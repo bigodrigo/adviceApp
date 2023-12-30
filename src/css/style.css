@@ -53,3 +53,29 @@ main {
     cursor: pointer;
     box-shadow: 0 5px 15px var(--advice-dice-color);
 }
+
+.skeleton-title {
+  animation: skeleton-title-loading 1s linear infinite alternate;
+}
+
+.skeleton-advice {
+  animation: skeleton-advice-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-title-loading {
+  0% {
+    background-color: hsl(150, 100%, 50%);
+  }
+  100% {
+    background-color: var(--advice-dice-color);
+  }
+}
+
+@keyframes skeleton-advice-loading {
+  0% {
+    background-color: hsl(193, 38%, 70%);
+  }
+  100% {
+    background-color: var(--text-color);
+  }
+}

@@ -13,10 +13,12 @@
 This project has been developed employing the following technologies:
 
 - HTML and CSS
+- JS
+- API
 
 ## 💻 Project
 
-The Project forms a component of a series of challenges and milestones aimed at improvement throughout the course. Post-class, the students endeavour to independently replicate a particular task. In this instance, one challenge was divided into the website (HTML + CSS) and the random advices (JS), this is the first part uploaded to GitHub.
+The Project forms a component of a series of challenges and milestones aimed at improvement throughout the course. Post-class, the students endeavour to independently replicate a particular task. In this instance, one challenge was divided into the website (HTML + CSS) and the random advices (JS) using an API, this is the first part uploaded to GitHub.
 
 ## 🔖 Layout
 
@@ -30,4 +32,9 @@ The Project forms a component of a series of challenges and milestones aimed at 
     <img src="./design/mobile.png">
 </div>
 
-The Pokedex is currently accessible at: https://bigodrigo.github.io/adviceApp/
+The App is currently accessible at: https://bigodrigo.github.io/adviceApp/
+
+## :muscle: Suggested Enhancements:
+
+- [ ] Add a skeleton Animation;
+- [ ] Animate the dice with a roll;
