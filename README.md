@@ -29,8 +29,8 @@ The Project forms a component of a series of challenges and milestones aimed at 
 
 <div align="center">
     <p>Mobile and Loading:</p>
-    <img src="./design/mobile.png">
-    <img src="./design/loading.png">
+    <img width="40%" src="./design/mobile.png">
+    <img width="40%" src="./design/loading.png">
 </div>
 
 The App is currently accessible at: https://bigodrigo.github.io/adviceApp/
