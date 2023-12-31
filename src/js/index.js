@@ -6,15 +6,24 @@ async function fetchAdvice() {
     console.log(advice)
     let updateTitle = document.getElementById('title');
     updateTitle.innerHTML = `Advice #${advice.id}`;
-    document.getElementById('description').addEventListener('click', () => {
-        tirarUmaCartaAleatoriaDoBaralho(baralho.deck_id)
-    })
+    updateTitle.classList.remove("skeleton-title");
     let updateAdvice = document.getElementById('description');
     updateAdvice.innerHTML = advice.advice;
+    updateAdvice.classList.remove("skeleton-advice");
+}
+
+async function waitingAdvice() {
+    let updateTitle = document.getElementById('title');
+    updateTitle.innerHTML = '';
+    updateTitle.classList.add("skeleton-title");
+    let updateAdvice = document.getElementById('description');
+    updateAdvice.innerHTML = '';
+    updateAdvice.classList.add("skeleton-advice");
 }
 
 fetchAdvice();
 
 document.getElementById('btn').addEventListener('click', () => {
+    waitingAdvice();
     fetchAdvice();
 })

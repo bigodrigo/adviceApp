@@ -1,5 +1,5 @@
 # Advice generator app
-## (Last Update) - 13/07/2023
+## (Last Update) - 31/12/2023
 ### This project is a milestone of a FullStack developer course, serving to reinforce foundational principles and then upload it to a GitHub repository.
 
 <p align="center">
@@ -28,13 +28,14 @@ The Project forms a component of a series of challenges and milestones aimed at 
 </div>
 
 <div align="center">
-    <p>Mobile:</p>
+    <p>Mobile and Loading:</p>
     <img src="./design/mobile.png">
+    <img src="./design/loading.png">
 </div>
 
 The App is currently accessible at: https://bigodrigo.github.io/adviceApp/
 
 ## :muscle: Suggested Enhancements:
 
-- [ ] Add a skeleton Animation;
+- [x] Add a skeleton Animation;
 - [ ] Animate the dice with a roll;

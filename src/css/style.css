@@ -18,6 +18,7 @@ main {
     background-color: var(--advice-card-color);
     margin: 20px;
     width: 480px;
+    // height: 360px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -29,7 +30,8 @@ main {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 15px;
-    margin-top: 30px;
+    margin: 30px auto;
+    padding: 15px;
   }
   
   .container .description {
@@ -56,15 +58,22 @@ main {
 
 .skeleton-title {
   animation: skeleton-title-loading 1s linear infinite alternate;
+  width: 75%;
+  border-radius: 0.25rem;
 }
 
 .skeleton-advice {
+  width: 80%;
+  // height: 0.7rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  padding: 23px;
   animation: skeleton-advice-loading 1s linear infinite alternate;
 }
 
 @keyframes skeleton-title-loading {
   0% {
-    background-color: hsl(150, 100%, 50%);
+    background-color: hsl(200, 20%, 80%);
   }
   100% {
     background-color: var(--advice-dice-color);
@@ -73,7 +82,7 @@ main {
 
 @keyframes skeleton-advice-loading {
   0% {
-    background-color: hsl(193, 38%, 70%);
+    background-color: hsl(200, 20%, 80%);
   }
   100% {
     background-color: var(--text-color);
